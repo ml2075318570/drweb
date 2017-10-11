@@ -1,0 +1,467 @@
+body {
+    color: #888;
+    background-color: #f8f8f8;
+}
+.banxin {
+    width: 1000px;
+    margin: 0 auto;
+}
+a:hover {
+    color: #dbc7ba;
+}
+/*header开始*/
+header {
+    width: 100%;
+    height: 134px;
+    margin: 18px 0;
+    position: relative;
+}
+.headerin {
+    height: 134px;
+    position: relative;
+}
+/*logo开始*/
+.logo {
+    position: relative;
+    margin-top: 14px;
+    margin-left: 17px;
+}
+.logo span {
+    position: absolute;
+    bottom: 8px;
+    right: -190px;
+    color: #626262;
+}
+/*登录部分*/
+.denglu {
+    height: 40px;
+    padding-top: 12px;
+    width: 580px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.denglu div{
+    height: 20px;
+}
+.denglu a:hover {
+    color: #dbc7ba;
+}
+.dl-1 a {
+    display: inline-block;
+    padding: 0 15px 0 9px;
+    background: url("../images/hr.png") no-repeat right center;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+.dl-2 i {
+    display: inline-block;
+    padding: 0 15px 0 9px;
+    background: url("../images/hr.png") no-repeat right center;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+.dl-3 a {
+    display: inline-block;
+    padding: 0 15px 0 9px;
+    background: url("../images/hr.png") no-repeat right center;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+.dl-4 span {
+    display: inline-block;
+    padding: 0 15px 0 9px;
+    background: url("../images/hr.png") no-repeat right center;
+    font-size: 12px;
+    color: #8d8d8d;
+    cursor: pointer;
+}
+.dl-4 span:hover {
+    color: #dbc7ba;
+}
+#guanzhudr-b {
+    height: 220px;
+    position: absolute;
+    /*display: none;*/
+    background: #fff;
+    top: 32px;
+    left: 180px;
+    width: 342px;
+    opacity: 0;
+    z-index: 6;
+}
+#guanzhudr-b div {
+    width: 170px;
+    height: 220px;
+    text-align: center;
+}
+#guanzhudr-bl {
+    background: url("../images/gzdr-l.jpg") no-repeat center 30px;
+    position: relative;
+}
+#guanzhudr-br {
+    background: url("../images/gzdr-r.jpg") no-repeat center 30px;
+    position: relative;
+}
+#guanzhudr-bl p {
+    bottom: 12px;
+    left: 20px;
+    position: absolute;
+    line-height: 22px;
+    font-size: 16px;
+    color: #333;
+    font-family: "microsoft yahei";
+}
+#guanzhudr-br p {
+    bottom: 12px;
+    left: 20px;
+    position: absolute;
+    line-height: 22px;
+    font-size: 16px;
+    color: #333;
+    font-family: "microsoft yahei";
+}
+.dl-5 a {
+    display: inline-block;
+    padding: 0 15px 0 9px;
+    background: url("../images/hr.png") no-repeat right center;
+    font-size: 12px;
+    color: #8d8d8d;
+}
+#sjgw-b {
+    position: absolute;
+    width: 189px;
+    height: 220px;
+    top: 32px;
+    left: 320px;
+    background:#fff url("../images/shoujigw.jpg") no-repeat center 30px;
+    z-index: 6;
+    text-align: center;
+    display: none;
+}
+#sjgw-b p {
+    bottom: 12px;
+    left: 55px;
+    position: absolute;
+    line-height: 22px;
+    font-size: 16px;
+    color: #333;
+    font-family: "microsoft yahei";
+}
+.language {
+    width: 72px;
+    margin-left: 6px;
+    background: url("../images/bottom.png") no-repeat center right;
+}
+#languageb {
+    display: none;
+    z-index: 12;
+}
+/*店铺定位部分*/
+.shop {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.shopall {
+    position: absolute;
+    float: right;
+    width: 74px;
+    height: 28px;
+    border: 1px solid #f8f8f8;
+    margin-left: 12px;
+    right: 0;
+    top: -1px;
+}
+.qgdp {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 74px;
+    height: 29px;
+    text-align: center;
+    color: #797979;
+    z-index: 4;
+}
+.cc {
+    float: right;
+    padding-left: 16px;
+    background: url("../images/map.png") no-repeat left center;
+    color: #bf967c;
+    margin-right: 80px;
+}
+.map {
+    position: absolute;
+    border: 1px solid #c57d5c;
+    background: #fff;
+    text-align: left;
+    top: 29px;
+    display: none;
+    right: -1px;
+    width: 200px;
+    z-index: 10;
+}
+.map a {
+    text-align: center;
+    float: left;
+    background-color: pink;
+    width: 40px;
+    height: 24px;
+    line-height: 24px;
+    margin: 3px 5px;
+}
+/*=========导航栏部分=============*/
+.daohanglan {
+    background-color: #797979;
+}
+.nav {
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    background-color: pink;
+}
+.nav li {
+    float: left;
+    position: relative;
+    width: 126px;
+    text-align: center;
+    z-index: 100;
+}
+.nav li>a {
+    font-size: 16px;
+    display: block;
+    color: #fff;
+}
+.nav li>a:hover {
+    color: #dbc7ba;
+}
+.nav>li:first-child {
+    margin-left: 20px;
+}
+/*DR导航栏*/
+.DRnav a {
+    font-size: 16px;
+    display: block;
+    color: #dbc7ba;
+}
+.DRnavsuv {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: -20px;
+    width: 1000px;
+    height: 260px;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+}
+.DRnavsuv .DRsuv-l:first-child {
+    background: url("../images/shuxian.png") no-repeat right center;
+}
+.DRsuv-l {
+    flex: 1;
+    padding-top: 30px;
+    text-align: center;
+    width: 500px;
+    height: 230px;
+    position: relative;
+}
+.DRsuv-l p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5e5e61;
+    line-height: 24px;
+}
+.DRsuv-l p a{
+    /*background: url("../images/DRsuvl.png") no-repeat right center;*/
+    display: inline-block;
+    height: 29px;
+    padding-right: 40px;
+    color: #5e5e61;
+}
+.DRsuv-l:first-child p a {
+    background: url("../images/DRsuvl.png") no-repeat right center;
+}
+/*求婚导航栏*/
+.QHsuv {
+    position: absolute;
+    top: 50px;
+    left: -146px;
+    width: 1000px;
+    height: 260px;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+}
+.QHlimg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.QHrimg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.QHlimg li,
+.QHrimg li {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.QHl {
+    position: absolute;
+    width: 190px;
+    top: 24px;
+    left: 250px;
+}
+.QHr {
+    position: absolute;
+    width: 190px;
+    top: 24px;
+    right: 250px;
+}
+.QHl li,
+.QHr li{
+    display: block;
+    font-size: 14px;
+    color: #5e5e61;
+    width: 190px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    /*background-color: green;*/
+    border-bottom: 1px solid #dbdbdb;
+}
+.QHl li a,
+.QHr li a {
+    color: #5e5e61;
+}
+.QHl li:hover,
+.QHl li:hover {
+    border-bottom: 1px solid #777;
+}
+/*爱的导航栏*/
+.ADsuv {
+    position: absolute;
+    top: 50px;
+    left: -272px;
+    width: 1000px;
+    height: 260px;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+}
+.ADlimg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.ADrimg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.ADlimg li,
+.ADrimg li {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.ADl {
+    position: absolute;
+    width: 190px;
+    top: 24px;
+    left: 250px;
+}
+.ADr {
+    position: absolute;
+    width: 190px;
+    top: 24px;
+    right: 250px;
+}
+.ADl li,
+.ADr li{
+    display: block;
+    font-size: 14px;
+    color: #5e5e61;
+    width: 190px;
+    text-align: center;
+    height: 42px;
+    line-height: 42px;
+    /*background-color: green;*/
+    border-bottom: 1px solid #dbdbdb;
+}
+.ADl li a,
+.ADr li a {
+    color: #5e5e61;
+}
+.ADl li:hover,
+.ADl li:hover {
+    border-bottom: 1px solid #777;
+}
+/*品牌导航栏*/
+.PPnavsuv {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: -224px;
+    width: 1000px;
+    height: 260px;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+}
+.PPsuv-l {
+    flex: 1;
+    padding-top: 30px;
+    text-align: center;
+    width: 500px;
+    height: 230px;
+    position: relative;
+}
+.PPsuv-l p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5e5e61;
+    line-height: 24px;
+}
+    /*探索导航栏*/
+.TSnavsuv {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    right: -98px;
+    width: 1000px;
+    height: 260px;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+}
+.TSsuv-l {
+    flex: 1;
+    padding-top: 30px;
+    text-align: center;
+    width: 500px;
+    height: 230px;
+    position: relative;
+}
+.TSsuv-l p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #5e5e61;
+    line-height: 24px;
+}
+
